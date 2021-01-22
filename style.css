@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.table{
+    background: rgb(248, 248, 248);
+    border-radius: 20px;
+    padding: 15px;
+    width: 50vw;
+}
+th{
+    text-align: left;
+    text-transform: capitalize;
+}
+tbody > tr:hover{
+    background: #0000003a;
+}
+td{
+    padding: 5px;
+    font-weight: bold;
+}
